@@ -4,7 +4,7 @@ Bring **KartomantiK** to Cockatrice using its custom sets feature.
 
 ## How to Setup
 
-* **Option 1 (Recommended):** Download `kartomantik_database.xml` directly from the [GitHub Releases](https://github.com/AssortedMine70/kartomantik-cockatrice/releases) page.
+* **Option 1 (Recommended):** Download `kartomantik_database.zip` directly from the [GitHub Releases](https://github.com/AssortedMine70/kartomantik-cockatrice/releases) page.
 * **Option 2:** Clone the repository and run the generation script:
   ```bash
   python main.py
@@ -13,13 +13,12 @@ Bring **KartomantiK** to Cockatrice using its custom sets feature.
 
 ### STEP 2 - Import the custom set in Cockatrice
 
+1. Unzip `kartomantik_database.zip`.
 1. Open **Cockatrice**.
-2. From the top menu, select **Card Database → Add custom sets/cards**.
-3. Choose your card database file (`kartomantik_database.xml`).
-
-You shouldn't need to add **Custom Card Images** because they're already embedded in the `.xml`.
-
-**IMPORTANT NOTE:** You do not need to configure custom card images manually because they are already embedded directly within the XML file. However, image links may occasionally break if the host changes.
+1. From the top menu, select **Card Database → Add custom sets/cards**.
+1. Choose your card database file (`kartomantik_database.xml`).
+1. From the top menu, select **Card Database → Open custom image folder**.
+1. Drag in the images folters (`images/{SetName}` folders).
 
 ## Decks
 
