@@ -4,6 +4,8 @@ Bring **KartomantiK** to Cockatrice using its custom sets feature.
 
 ## How to Setup
 
+### STEP 1 - Obtain the custom set
+
 * **Option 1 (Recommended):** Download `kartomantik_database.zip` directly from the [GitHub Releases](https://github.com/AssortedMine70/kartomantik-cockatrice/releases) page.
 * **Option 2:** Clone the repository and run the generation script:
   ```bash
